@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu+Mono:ital@0;1&display=swap');
+:root {
+    --cor-primaria: #ffffff;
+    --cor-fundo: #f5f0dc;
+    --cor-fundo-texto: #B3A742;
+
+    --font-titulo: 'Ubuntu Condensed', sans-serif;
+    --font-texto: 'Ubuntu Mono', monospace;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: var(--font-texto);
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2 {
+    background-color: var(--cor-fundo-texto);
+    font-family: var(--font-titulo);
+    font-size: 1.5rem;
+    color: var(--cor-primaria);
+    padding: 5px;
+}
+.ingredientes,
+.utensilios,
+.preparo,
+.servir {
+    font-size: 1.2em;
+}
+
+.rodape {
+    background-color: var(--cor-fundo-texto);
+    color: var(--cor-primaria);
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;  
+}
